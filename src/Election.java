@@ -27,7 +27,7 @@ public class Election
 		ballots.add(new Ballot(3,2,1));
 		Collections.shuffle(candidates);
 		new Condorcet().elect();
-		new RankedChoice().elect();
+		new InstantRunoff().elect();
 		new FPTP().elect();
 		candidates.clear();
 		ballots.clear();
@@ -52,7 +52,7 @@ public class Election
 		}
 
 		new Condorcet().elect();
-		new RankedChoice().elect();
+		new InstantRunoff().elect();
 		new FPTP().elect();
 	}
 

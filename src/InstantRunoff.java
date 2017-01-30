@@ -1,5 +1,5 @@
 
-public class RankedChoice extends SocialPreferenceFunction
+public class InstantRunoff extends SocialPreferenceFunction
 {
 	public static int count(Selection s)
 	{
